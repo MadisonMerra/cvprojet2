@@ -1,0 +1,152 @@
+/* Desktop */
+
+/* Général */
+
+body {
+    font-family: arial, serif, sans-serif;
+    border: 1px solid #607D8B;
+    margin: auto;
+    max-width: 900px;
+}
+
+/* Header*/
+header {
+    display: flex;
+}
+
+#photo {
+    background-color: #F3C130;
+    width: 35%;
+    padding: 5% 0 5% 0;
+}
+
+#miniature {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2.5px solid #C4992F;
+    overflow: hidden;
+    margin: auto;
+}
+
+#titre {
+    width: 65%;
+    line-height: 110%;
+}
+
+h1 {
+    font-size: 160%;
+    padding: 15% 0 0 7%;
+    font-weight: lighter;
+}
+
+h1 > span {
+    color: #F3C130;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    color: #607D8B;
+    font-size: 120%;
+    padding-left: 7%;
+    letter-spacing: 0.5px;
+}
+
+h2 > span {
+    text-decoration: underline;
+    text-decoration-color: #F3C130;
+    text-underline-position: under;
+}
+
+/* Partie principale */ 
+/* Partie gauche */
+
+#bloc_gauche {
+    width: 35%;
+    background-color: #F3C130;
+}
+
+#bloc_gauche h3 {
+    background-color: #000000;
+    color: #F3C130;
+    text-align: center;
+    padding: 4%;
+    margin: 0;
+    font-size: 120%;
+    border-right: 1px solid #607D8B;
+}
+address {
+    font-style: normal;
+    padding: 10% 15% 15% 15%;
+    line-height: 1.2;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#informations > p {
+    padding: 10% 15% 125% 15%;
+    line-height: 1.5;
+    text-align: justify;
+    color: #EEEEEE;
+}
+
+
+/* Partie droite */
+#bloc_droit {
+    width: 65%;
+    padding: 3.5% 0 2% 0;
+    color: #455A64;
+}
+
+#bloc_droit > h3 {
+    color: #000;
+    border-bottom: 1.3px solid #336699;
+    padding-bottom: 1%;
+    width: 90%;
+    margin: auto;
+}
+
+h3 > i {
+    color: #455A64;
+    padding-right: 3%;
+}
+
+#formation, #experience_professionnelle {
+    padding: 2% 0 2% 0;
+}
+
+.mise_en_page {
+    display: flex;
+}
+
+
+.annee {
+    margin: 1% 0 0 1%;
+}
+
+.etablissement {
+    padding-left: 15%;
+    width: 300px;
+}
+
+.taches {
+    font-size: 92%;
+    line-height: 1.5;
+}
+
+#recommandation {
+    display: flex;
+    padding: 2% 0 0 5%;
+    line-height: 1.5;
+}
+
+.recommandation2 {
+    width: 200px;
+    padding-left: 15%;
+}
+
