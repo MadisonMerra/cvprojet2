@@ -60,6 +60,9 @@ h2 > span {
 }
 
 /* Partie principale */ 
+main {
+    display: flex;
+}
 /* Partie gauche */
 
 #bloc_gauche {
@@ -133,7 +136,7 @@ h3 > i {
     padding-right: 3%;
 }
 
-#formation, #experience_professionnelle {
+#formation, #experience_pro {
     padding: 2% 0 2% 0;
 }
 
