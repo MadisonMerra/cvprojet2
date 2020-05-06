@@ -125,16 +125,17 @@ a {
 
 #bloc_droit > h3 {
     color: #000;
-    border-bottom: 1.3px solid #336699;
+    border-bottom: 1.3px solid #F3C130;
     padding-bottom: 1%;
     width: 90%;
     margin: auto;
 }
 
-h3 > i {
-    color: #455A64;
-    padding-right: 3%;
-}
+ h3 > i {
+    color: #F3C130;
+    padding: 2%;
+ }
+
 
 #formation, #experience_pro {
     padding: 2% 0 2% 0;
@@ -163,7 +164,12 @@ h3 > i {
     line-height: 1.5;
 }
 
-#recommandation {
+#recommandations {
+    display: flex;
+    line-height: 1.5;
+}
+
+.recommandation {
     display: flex;
     padding: 2% 0 0 5%;
     line-height: 1.5;
