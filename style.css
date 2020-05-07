@@ -65,12 +65,12 @@ main {
 }
 /* Partie gauche */
 
-#bloc_gauche {
+.bloc_gauche {
     width: 35%;
     background-color: #F3C130;
 }
 
-#bloc_gauche h3 {
+.bloc_gauche h3 {
     background-color: #000000;
     color: #F3C130;
     text-align: center;
@@ -117,15 +117,15 @@ a {
 }
 
 /* Partie droite */
-#bloc_droit {
+.bloc_droit {
     width: 65%;
     padding: 2,5% 0 2% 0;
     color: #455A64;
 }
 
-#bloc_droit > h3 {
+.bloc_droit > h3 {
     color: #000;
-    border-bottom: 1.3px solid #336699;
+    border-bottom: 1.3px solid #F3C130;
     padding-bottom: 1%;
     width: 90%;
     margin: auto;
