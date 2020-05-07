@@ -119,7 +119,7 @@ a {
 /* Partie droite */
 .bloc_droit {
     width: 65%;
-    padding: 2,5% 0 2% 0;
+    padding: 2.5% 0 2% 0;
     color: #455A64;
 }
 
@@ -163,6 +163,10 @@ a {
     font-size: 92%;
     line-height: 1.5;
 }
+
+footer {
+    display: flex;
+  }  
 
 .recommandation {
     display: flex;
