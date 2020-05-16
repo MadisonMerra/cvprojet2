@@ -164,6 +164,8 @@ a {
     line-height: 1.5;
 }
 
+/*------ FOOTER ------*/
+
 footer {
     display: flex;
   }  
@@ -181,7 +183,7 @@ footer {
 
 /* Partie responsive */
 
-@media all and (max-width: 800px){
+@media all and (max-width: 768px){
     
     header {
         flex-direction: column;
@@ -201,12 +203,12 @@ footer {
         flex-direction: column-reverse;
     }
 
-    #bloc_droit {
+    .bloc_droit {
         width: 90%;
         margin: auto;
     }
 
-    #bloc_gauche {
+    .bloc_gauche {
         width: 100%;
     }
 
